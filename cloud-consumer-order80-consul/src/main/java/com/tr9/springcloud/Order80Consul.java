@@ -1,0 +1,12 @@
+package com.tr9.springcloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Order80Consul {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Order80Consul.class, args);
+    }
+}
